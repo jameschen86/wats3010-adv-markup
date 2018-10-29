@@ -1,3 +1,4 @@
+/* general-header__content modifier */
 body {
     font: 20px arial, sans-serif;
     }
@@ -12,6 +13,28 @@ h1 {
 	border: 4px solid black;
 	text-align: center;
 }
+
+li {
+	list-style: none;
+}
+
+section {
+	width: 60%;
+	padding: 1%;
+	font-size: 20px;
+	line-height: 18px;
+	float: left;
+}
+
+.bibliography {
+	font-size: 15px;
+}
+
+sup {
+    font-size:12px
+}
+
+/* top-to-bottom__navagation modifier */
 
 ul.top-nav, ul.bottom-nav {
 	padding: 0;
@@ -42,6 +65,14 @@ ul.top-nav, ul.bottom-nav {
   color: white;
 }
 
+
+.bottom-nav li {
+	display: inline;
+}
+
+
+/*sider-photo--floaters__block modifer*/
+
 aside {
     float: right;
     width: 20%;
@@ -66,18 +97,7 @@ aside {
 	display: block;
 }
 
-section {
-	width: 60%;
-	padding: 1%;
-	font-size: 20px;
-	line-height: 18px;
-	float: left;
-}
-
-
-li {
-	list-style: none;
-}
+/*data-list__table modifiers*/
 
 table {
 	border-collapse: collapse;
@@ -108,6 +128,8 @@ th, td {
 	border: 1px black;
 }
 
+/*foot-note--credit__citation modifer*/
+
 footer {
 	clear: both;
 }
@@ -120,20 +142,8 @@ footer {
 	font-size: 15px;
 }
 
-.bottom-nav li {
-	display: inline;
-}
-
 .page-credit {
 	padding: 0 2%;
 	font-size: 15px;
 	text-align: right;
-}
-
-.bibliography {
-	font-size: 15px;
-}
-
-sup {
-    font-size:12px
 }
