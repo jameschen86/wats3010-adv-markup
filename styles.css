@@ -1,1 +1,139 @@
-/* Styles for the Advanced Markup assignment. */
+body {
+    font: 20px arial, sans-serif;
+    }
+
+p, li {
+    line-height: 30px;
+    }
+
+h1 {
+	padding: 2px;
+	margin: 0;
+	border: 4px solid black;
+	text-align: center;
+}
+
+ul.top-nav, ul.bottom-nav {
+	padding: 0;
+	overflow: hidden;
+    background-color: black;
+}
+
+.top-nav li, .bottom-nav li {
+	display: inline;
+}
+
+.top-nav li a, .bottom-nav li a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top-nav li a:hover, .bottom-nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.top-nav li a.active, .bottom-nav li a.active{
+  background-color: black;
+  color: white;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+}
+	
+.bio-photo {
+	border: 2px black;
+	margin: 0 10px 10px 0;
+	padding: 8px;
+	font-size: 15px;
+	line-height: 1px;
+	text-align: center;
+	float: left;
+}
+
+.bio-photo img {
+	width: 100%;
+	margin-bottom: 8px;
+	display: block;
+}
+
+section {
+	width: 60%;
+	padding: 1%;
+	font-size: 20px;
+	line-height: 18px;
+	float: left;
+}
+
+
+li {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+    width: 100%;
+}
+
+#selected_works td, #selected_works th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#selected_works tr:hover {
+    background-color: black;
+    color: white;
+}
+
+#selected_works th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+th, td {
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px black;
+}
+
+footer {
+	clear: both;
+}
+
+.footnote {
+	text-decoration: none;
+}
+
+.smalltext {
+	font-size: 15px;
+}
+
+.bottom-nav li {
+	display: inline;
+}
+
+.page-credit {
+	padding: 0 2%;
+	font-size: 15px;
+	text-align: right;
+}
+
+.bibliography {
+	font-size: 15px;
+}
+
+sup {
+    font-size:12px
+}
