@@ -82,6 +82,7 @@ aside {
 }
 	
 .bio-photo {
+	width: 25%;
 	border: 2px black;
 	margin: 0 10px 10px 0;
 	padding: 8px;
